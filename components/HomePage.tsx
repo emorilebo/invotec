@@ -19,7 +19,7 @@ interface Props {
 
 
 const navigation = [
-  { name: 'Product', href: '#' },
+  { name: 'Packages', href: '#' },
   { name: 'Features', href: '#' },
   { name: 'Marketplace', href: '#' },
   { name: 'Company', href: '#' },
