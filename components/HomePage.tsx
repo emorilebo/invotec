@@ -69,7 +69,7 @@ const footerNavigation = {
     { name: 'Pricing', href: '#' },
     { name: 'Documentation', href: '#' },
     { name: 'Guides', href: '#' },
-    { name: 'API Status', href: '#' },
+    { name: 'Status', href: '#' },
   ],
   company: [
     { name: 'About', href: '#' },
@@ -89,7 +89,7 @@ const HomePage = () => {
     <div className="bg-white">
       <div className="relative overflow-hidden">
         <Popover as="header" className="relative">
-          <div className="bg-gray-900 pt-6">
+          <div className="bg-amber-600 pt-6">
             <nav
               className="relative max-w-7xl mx-auto flex items-center justify-between px-4 sm:px-6"
               aria-label="Global"
@@ -97,7 +97,7 @@ const HomePage = () => {
               <div className="flex items-center flex-1">
                 <div className="flex items-center justify-between w-full md:w-auto">
                   <a href="#">
-                    <span className="sr-only">Workflow</span>
+                    <span className="sr-only">Invotec</span>
                     <img
                       className="h-8 w-auto sm:h-10"
                       src="/fzx.png"
@@ -128,10 +128,10 @@ const HomePage = () => {
                   Log in
                 </a>
                 <a
-                  href="#"
-                  className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700"
+                  href="https://fzxmedia.com.ng/"
+                  className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-black bg-white hover:bg-amber-700"
                 >
-                 Goto FZXMedia Consulting
+                 Goto FZXMedia
                 </a>
               </div>
             </nav>
@@ -177,7 +177,7 @@ const HomePage = () => {
                   </div>
                   <div className="mt-6 px-5">
                     <a
-                      href="#"
+                      href="https://fzxmedia.com.ng/"
                       className="block text-center w-full py-3 px-4 rounded-md shadow bg-gradient-to-r from-teal-500 to-cyan-600 text-white font-medium hover:from-teal-600 hover:to-cyan-700"
                     >
                       Goto FZXMedia Consulting
@@ -197,7 +197,7 @@ const HomePage = () => {
           </Transition>
         </Popover>
         <main>
-          <div className="pt-10 bg-gray-900 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
+          <div className="pt-10 bg-amber-600 sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden">
             <div className="mx-auto max-w-7xl lg:px-8">
               <div className="lg:grid lg:grid-cols-2 lg:gap-8">
                 <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center">
@@ -206,10 +206,10 @@ const HomePage = () => {
                       href="#"
                       className="inline-flex items-center text-white bg-black rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200"
                     >
-                      <span className="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-gradient-to-r from-teal-500 to-cyan-600 rounded-full">
+                      <span className="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-gradient-to-r from-red-500 to-black rounded-full">
                         We're connecting
                       </span>
-                      <span className="ml-4 text-sm">Visit our packages page</span>
+                      <span className="ml-4 text-sm">See our packages</span>
                       <ChevronRightIcon className="ml-2 w-5 h-5 text-gray-500" aria-hidden="true" />
                     </a>
                     <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
