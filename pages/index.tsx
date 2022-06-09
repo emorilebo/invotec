@@ -8,7 +8,7 @@ const Home: NextPage = () => {
     <div className="">
       <Head>
         <title>Invotec Nigeria LTD</title>
-        <link rel="icon" href="/fzx.png" />
+        <link rel="icon" href="/faviconr.jpg" />
       </Head>
 
       <HomePage />
