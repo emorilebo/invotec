@@ -53,12 +53,9 @@ function classNames(...classes: any[]) {
 function Price() {
     return (
         <div className="max-w-7xl mx-auto py-24 px-4 bg-white sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl sm:leading-none sm:tracking-tight lg:text-6xl">
-            Pricing plans for teams of all sizes
-          </h2>
-          <p className="mt-6 max-w-2xl text-xl text-gray-500">
-            Choose an affordable plan that's packed with the best features for engaging your audience, creating customer
-            loyalty, and driving collaboration with the global world.
+          <h1 className="text-5xl font-extrabold text-gray-900 sm:text-center">Pricing Plans</h1>
+          <p className="mt-5 text-xl text-gray-500 sm:text-center">
+            Start building for free, then add a site plan to go live. Account plans unlock additional features.
           </p>
     
           {/* Tiers */}
