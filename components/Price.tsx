@@ -33,6 +33,7 @@ const pricing = {
       description: 'Enjoy blazing download speeds and watch 4K videos online with ease.',
       features: [
         'Unlimited',
+        '30Mbps Top Speed',
         'Download videos at 5MB/s',
         'Up to 20 users with no traffic',
       ],
