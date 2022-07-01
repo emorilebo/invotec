@@ -371,7 +371,7 @@ const HomePage = () => {
                     </svg>
                     <p className="relative">
                       The University of Calabar is entirely connected to the
-                      internet with Fibre couresty of Invotec Smart Connect.
+                      internet with Fibre courtesy of Invotec's FZX SmartCampus.
                       Making it easy for us to run our day to day activities
                       better and connect with the rest of the world seemlessly
                       and latency free
