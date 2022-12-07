@@ -172,10 +172,12 @@ function jobs() {
               {transferFeatures.map((item) => (
                 <div key={item.id} className="relative">
                   <dt>
+                    
                     <p className="ml-1 text-lg font-base leading-6 text-gray-600">
                       {item.name}
                     </p>
                   </dt>
+                  
                 </div>
               ))}
             </dl>
@@ -185,6 +187,7 @@ function jobs() {
             <p className="mt-1 text-lg text-gray-500">
               Forward your CV to hr@fzxmedia.com.ng and call +234 805 632 1626
             </p>
+
           </div>
 
           <div className="relative -mx-4 mt-10 lg:mt-0" aria-hidden="true">
@@ -262,6 +265,8 @@ function jobs() {
             fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)"
           />
         </svg>
+
+  
       </div>
     </div>
   )

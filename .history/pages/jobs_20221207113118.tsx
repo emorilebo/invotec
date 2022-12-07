@@ -158,7 +158,7 @@ function jobs() {
           </p>
         </div>
 
-        <div className="relative mt-12 lg:mt-12 lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
+        <div className="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:items-center lg:gap-8">
           <div className="relative">
             <h3 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">
               BACKEND ROLE
@@ -168,23 +168,19 @@ function jobs() {
               backend-heavy role with at least 2 years of experience.
             </p>
 
-            <dl className="mt-5 space-y-2">
+            <dl className="mt-10 space-y-2">
               {transferFeatures.map((item) => (
                 <div key={item.id} className="relative">
                   <dt>
+                    
                     <p className="ml-1 text-lg font-base leading-6 text-gray-600">
                       {item.name}
                     </p>
                   </dt>
+                  
                 </div>
               ))}
             </dl>
-            <h3 className="text-2xl mt-5 font-bold tracking-tight text-gray-900 sm:text-3xl">
-              How to apply
-            </h3>
-            <p className="mt-1 text-lg text-gray-500">
-              Forward your CV to hr@fzxmedia.com.ng and call +234 805 632 1626
-            </p>
           </div>
 
           <div className="relative -mx-4 mt-10 lg:mt-0" aria-hidden="true">
@@ -262,6 +258,8 @@ function jobs() {
             fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)"
           />
         </svg>
+
+  
       </div>
     </div>
   )
