@@ -219,7 +219,7 @@ function jobs() {
             <img
               className="relative mx-auto"
               width={490}
-              src="/computer.jpg"
+              src=""
               alt=""
             />
           </div>
