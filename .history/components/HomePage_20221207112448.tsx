@@ -10,10 +10,7 @@ import {
   ShieldCheckIcon,
   XMarkIcon,
 } from '@heroicons/react/24/solid'
-import {
-  ChevronRightIcon,
-  ArrowTopRightOnSquareIcon,
-} from '@heroicons/react/24/solid'
+import { ChevronRightIcon, ArrowTopRightOnSquareIcon } from '@heroicons/react/24/solid'
 import Price from './Price'
 
 interface Props {}
@@ -23,7 +20,7 @@ const navigation = [
   { name: 'Features', href: '#' },
   { name: 'Marketplace', href: '#' },
   { name: 'Company', href: '#' },
-  { name: 'Jobs', href: '/jobs' },
+  { name: 'Company', href: '#' },
 ]
 const features = [
   {
@@ -285,7 +282,7 @@ const HomePage = () => {
               </div>
             </div>
           </div>
-          <Price />
+<Price/>
           {/* Feature section with screenshot */}
           <div className="relative bg-gray-50 pt-16 sm:pt-24 lg:pt-32">
             <div className="mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl">
@@ -420,11 +417,7 @@ const HomePage = () => {
                       <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                     </svg>
                     <p className="relative">
-                      We at CuriosityXploring have been using Invotec's Fibre
-                      SmartCity Connect to run our software company for the past
-                      6 months in this post Covid era. This has allowed us to
-                      connect and continue work with our national and
-                      international clients seemlessly. I recommend them anyday.
+                      We at CuriosityXploring have been using Invotec's Fibre SmartCity Connect to run our software company for the past 6 months in this post Covid era. This has allowed us to connect and continue work with our national and international clients seemlessly. I recommend them anyday.
                     </p>
                   </div>
                   <footer className="mt-8">
@@ -459,6 +452,7 @@ const HomePage = () => {
                 src="invote.jpg"
                 alt=""
               />
+              
             </div>
             <div className="relative mx-auto max-w-md px-4 py-12 sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32">
               <div className="md:ml-auto md:w-1/2 md:pl-10">

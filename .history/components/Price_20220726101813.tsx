@@ -1,5 +1,5 @@
 import React from 'react'
-import { CheckIcon } from '@heroicons/react/24/solid'
+import { CheckIcon } from '@heroicons/react/outline'
 
 const pricing = {
   tiers: [
