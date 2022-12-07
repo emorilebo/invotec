@@ -149,10 +149,10 @@ function jobs() {
         </svg>
 
         <div className="relative">
-          <h2 className="text-center text-3xl font-bold leading-8 tracking-tight text-yellow-600 sm:text-4xl">
+          <h2 className="text-center text-3xl font-bold leading-8 tracking-tight text-Yellow-900 sm:text-4xl">
             JOB ANNOUNCEMENT
           </h2>
-          <p className="mx-auto mt-4 max-w-3xl text-center text-sm lg:text-xl text-gray-500 ">
+          <p className="mx-auto mt-4 max-w-3xl text-center text-xl text-gray-500">
             “Being a great place to work is the difference between being a good
             company and a great company.”
           </p>
